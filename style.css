@@ -35,12 +35,16 @@ body {
 .header {
     width: 1440px;
     border-bottom: 1px solid #CCCCCC;
+    padding: 25px 0 25px;
 }
 
-.header__container {
+.container {
     width: 1290px;
-    margin: 0 auto;
-    padding: 25px 0 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -116,12 +120,10 @@ body {
 
 .main {
     width: 1440px;
+    padding: 129px 0 172px;
 }
 
-.main__container {
-    width: 1290px;
-    padding: 129px 0 172px;
-    margin: 0 auto;
+.main__wrap {
     display: flex;
 }
 
@@ -192,3 +194,99 @@ body {
     width: 750px;
     margin-top: 22px;
 }
+
+.main__companies {
+    width: 1440px;
+    background: #FF9C7D;
+    padding: 108px 0 104px;
+}
+
+.main__companies-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.main__companies-title {
+    width: 720px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.main__companies-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.section__card{
+    width: 1440px;
+    padding-top: 90px;
+}
+
+.section__card-wrap {
+    display: flex;
+    margin-bottom: 250px;
+}
+.section__card-wrap:last-of-type {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.section__card-description:nth-child(1){
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 138px;
+}
+
+.section__card-description:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 138px;
+    max-width: 450px;
+}
+
+.section__card-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.section__card-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.section__card-link {
+    color: #000000;
+}
+
+.section__card-link:hover {
+    color: #FF6336;
+}
+
+.section__card-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.section__card-button:hover {
+    color: #FF6336;
+}
+
+
