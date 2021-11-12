@@ -32,8 +32,6 @@ body {
     font-family: 'Graphik LCG', 'sans-serif';
 }
 
-/* 1) HEADER */
-
 .header {
     width: 1440px;
     border-bottom: 1px solid #CCCCCC;
@@ -46,13 +44,13 @@ body {
     margin-right: auto;
 }
 
-.header-wrap {
+.header__wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header-logo__link {
+.header__logo {
     margin-right: 51px;
     display: flex;
     align-items: center;
@@ -87,7 +85,7 @@ body {
     margin-right:0px;
 }
 
-.header-buttons {
+.header__buttons {
     width: 570px;
     display: flex;
     flex-direction: row;
@@ -95,7 +93,7 @@ body {
     justify-content: flex-end;
 }
 
-.header-buttons__link {
+.header__buttons__link {
     margin-right: 10px;
     width: 120px;
     height: 45px;
@@ -110,33 +108,31 @@ body {
     color: #000000;
 }
 
-.header-buttons__link:hover{
+.header__buttons__link:hover{
     background: #FF6336;
     border: 1px solid #FF6336;
     color: #FFFFFF;
 }
 
-.header-buttons__link:last-child{
+.header__buttons__link:last-child{
     margin-right: 0px;
 }
-
-/* 2) MAIN */
 
 .main {
     width: 1440px;
     padding: 129px 0 172px;
 }
 
-.main-wrap {
+.main__wrap {
     display: flex;
 }
 
-.main-description{
+.main__description{
     display: flex;
     flex-direction: column;
 }
 
-.main-description__title {
+.main__description__title {
     width: 540px;
     font-weight: 600;
     font-size: 65px;
@@ -144,7 +140,7 @@ body {
     color: #000000;
 }
 
-.main-description__text {
+.main__description__text {
     width: 471px;
     font-size: 25px;
     line-height: 35px;
@@ -152,11 +148,11 @@ body {
     margin-top: 51px;
 }
 
-.main-buttons {
+.main__buttons {
     display: flex;
 }
 
-.main-buttons__link {
+.main__buttons__link {
     margin-right: 10px;
     width: 160px;
     height: 60px;
@@ -172,34 +168,32 @@ body {
     margin-top: 50px;
 }
 
-.main-buttons__link:hover {
+.main__buttons__link:hover {
     background: #FF6336;
     border: 1px solid #FF6336;
     color: #FFFFFF;
 }
 
-.main-buttons__link:last-child {
+.main__buttons__link:last-child {
     margin-right: 0px;
 }
 
-.main-description__text-extra {
+.main__description__text-extra {
     font-size: 15px;
     line-height: 25px;
     color: #000000;
     margin-top: 25px;
 }
 
-.main-baner {
+.main__baner {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.main-baner__icon {
+.main__baner__icon {
     width: 750px;
     margin-top: 22px;
 }
-
-/* 3) MAIN-COMPANIES */
 
 .companies {
     width: 1440px;
@@ -207,7 +201,7 @@ body {
     padding: 108px 0 104px;
 }
 
-.companies-wrap {
+.companies__wrap {
     display: flex;
     justify-content: center;
 }
@@ -223,30 +217,28 @@ body {
     width: 720px;
 }
 
-.companies-logo {
+.companies__logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
 }
 
-/* 4) MAIN-CARD */
-
 .card{
     width: 1440px;
     padding-top: 90px;
 }
 
-.card-wrap {
+.card__wrap {
     display: flex;
     margin-bottom: 250px;
 }
-.card-wrap:last-of-type {
+.card__wrap:last-of-type {
     display: flex;
     margin-bottom: 150px;
 }
 
-.card-description:nth-child(1){
+.card__description:nth-child(1){
     max-width: 520px;
     display: flex;
     flex-direction: column;
@@ -255,7 +247,7 @@ body {
     margin-right: 138px;
 }
 
-.card-description:nth-child(2) {
+.card__description:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,7 +256,7 @@ body {
     max-width: 450px;
 }
 
-.card-description__text {
+.card__description__text {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
@@ -272,15 +264,15 @@ body {
     margin-top: 30px;
 }
 
-.card-description__link {
+.card__description__link {
     color: #000000;
 }
 
-.card-description__link:hover {
+.card__description__link:hover {
     color: #FF6336;
 }
 
-.card-button__link {
+.card__description__button {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -289,11 +281,9 @@ body {
     margin-top: 30px;
 }
 
-.card-button__link:hover {
+.card__description__button:hover {
     color: #FF6336;
 }
-
-/* 5) SECTION-SOCIALS */
 
 .socials {
     width: 1440px;
@@ -301,7 +291,7 @@ body {
     padding: 120px 0 147px 0;
 }
 
-.socials-wrap {
+.socials__wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -311,14 +301,14 @@ body {
     margin-bottom: 80px;
 }
 
-.socials-card-wrap {
+.socials__card-wrap {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
-.socials-card {
+.socials__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -328,7 +318,7 @@ body {
     margin-right: 130px;
 }
 
-.socials-icon-wrap {
+.socials__card__icon-wrap {
     width: 160px;
     height: 126px;
     margin-bottom: 20px;
@@ -336,11 +326,11 @@ body {
     align-items: flex-start;
 }
 
-.socials-card:nth-child(3n) {
+.socials__card:nth-child(3n) {
     margin-right: 0px;
   }
 
-.socials-card__title {
+.socials__card__title {
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
@@ -348,7 +338,7 @@ body {
     color: #000000;
 }
 
-.socials-card__text {
+.socials__card__text {
     font-size: 18px;
     line-height: 25px;
     text-align: center;
@@ -356,17 +346,15 @@ body {
     margin-top: 20px;
 }
 
-.socials-card__link {
+.socials__card__link {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
 }
 
-.socials-card__link:hover {
+.socials__card__link:hover {
     color: #FF6336;
 }
-
-/* 6) SECTION-ABOUT */
 
 .about {
     width: 1440px;
@@ -377,22 +365,22 @@ body {
     margin-bottom: 75px;
 }
 
-.about-wrap {
+.about__wrap {
     display: flex;
 }
 
-.about-card {
+.about__card {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     max-width: 410px;
 }
 
-.about-card:last-child {
+.about__card:last-child {
     margin-right: 0px;
 }
 
-.about-icon-wrap {
+.about__card__icon-wrap {
     width: 179px;
     height: 201px;
     margin-bottom: 49px;
@@ -400,32 +388,30 @@ body {
     align-items: flex-start;
 }
 
-.about-card__title {
+.about__card__title {
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
     color: #000000;
 }
 
-.about-card__text {
+.about__card__text {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
     margin-top: 34px;
 }
 
-.about-card__link {
+.about__card__link {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
     margin-top: 25px;
 }
 
-.about-card__link:hover {
+.about__card__link:hover {
     color: #FF6336;
 }
-
-/* 7) SECTION-INFO */
 
 .info {
     width: 1440px;
@@ -433,16 +419,16 @@ body {
     padding: 53px 0 105px 0;
 }
 
-.info-wrap {
+.info__wrap {
     display: flex;
 }
 
-.info-description {
+.info__description {
     display: flex;
     flex-direction: column;
 }
 
-.info-description__text {
+.info__description__text {
     font-size: 30px;
     line-height: 40px;
     color: #000000;
@@ -450,20 +436,18 @@ body {
     margin-top: 10px;
 }
 
-.info-description__text-autor {
+.info__description__text-autor {
     font-size: 15px;
     line-height: 25px;
     color: #000000;
     margin-top: 23px;
 }
 
-.info-wrap__icon {
+.info__icon-wrap {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 85px;
 }
-
-/* 8) SECTION-COMMERCIAL */
 
 .commercial {
     width: 1440px;
@@ -471,20 +455,20 @@ body {
     padding: 80px 0 84px 0;
 }
 
-.commercial-wrap {
+.commercial__wrap {
     display: flex;
     flex-direction: row;
     
 }
 
-.commercial-description {
+.commercial__description {
     display: flex;
     flex-direction: row;
     border-right: 1px solid #000000;
     width: 809px;
 }
 
-.commercial-description__title {
+.commercial__description__title {
     font-weight: 600;
     font-size: 35px;
     line-height: 50px;
@@ -494,14 +478,14 @@ body {
     margin-right: 104px;
 }
 
-.commercial-card {
+.commercial__card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 71px;
 }
 
-.commercial-card__link {
+.commercial__card__link {
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 0.75px;
@@ -510,11 +494,11 @@ body {
     text-decoration: none;
 }
 
-.commercial-card__link-icon {
+.commercial__card__link-icon {
     margin-bottom: 20px;
 }
 
-.commercial-card__link:hover {
+.commercial__card__link:hover {
     color: #FF6336;
 }
 
