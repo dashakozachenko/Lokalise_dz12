@@ -10,6 +10,8 @@ body {
   max-width: 1440px;
   border-bottom: 1px solid #CCCCCC;
   padding: 25px 0 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -94,6 +96,8 @@ body {
 .main {
   max-width: 1440px;
   padding: 129px 0 172px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main__wrap {
@@ -172,6 +176,8 @@ body {
   max-width: 1440px;
   background: #FF9C7D;
   padding: 108px 0 104px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .companies__wrap {
@@ -201,6 +207,8 @@ body {
 .card {
   max-width: 1440px;
   padding-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card__wrap {
@@ -264,6 +272,8 @@ body {
   max-width: 1440px;
   background: #FFF8E4;
   padding: 120px 0 147px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .socials__wrap {
@@ -334,6 +344,8 @@ body {
 .about {
   max-width: 1440px;
   padding: 154px 0 187px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about__title {
@@ -392,6 +404,8 @@ body {
   max-width: 1440px;
   background: #C9E8F2;
   padding: 53px 0 105px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info__wrap {
@@ -428,6 +442,8 @@ body {
   max-width: 1440px;
   background: #DABC98;
   padding: 80px 0 84px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .commercial__wrap {
@@ -478,6 +494,8 @@ body {
 
 .integration {
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .integration__wrap {
   display: flex;
@@ -523,6 +541,8 @@ body {
 .why-wait {
   max-width: 1440px;
   background: #FF9C7D;
+  margin-left: auto;
+  margin-right: auto;
 }
 .why-wait__wrap {
   display: flex;
@@ -560,6 +580,8 @@ body {
 .footer {
   max-width: 1440px;
   background: #EEEEEE;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer__wrap {
   display: flex;
